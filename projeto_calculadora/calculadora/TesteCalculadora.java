@@ -22,10 +22,10 @@ public class TesteCalculadora {
         Calculadora calc = new Calculadora();
 
         //Operações Válidas
-        System.out.println(calc.calcular(2, 3, "+"));
-        System.out.println(calc.calcular(10, 4, "-"));
-        System.out.println(calc.calcular(3, 5, "*"));
-        System.out.println(calc.calcular(8, 2, "/"));
+        System.out.println(calc.calcular(2, 3, "+")); //Valor esperado 5
+        System.out.println(calc.calcular(10, 4, "-")); //Valor esperado 6
+        System.out.println(calc.calcular(3, 5, "*")); //valor Esperado 15
+        System.out.println(calc.calcular(8, 2, "/")); //Valor Eperado 4 
 
         //Teste de divisão por zero
         try {
@@ -44,4 +44,5 @@ public class TesteCalculadora {
         }
 
     }
+
 }
